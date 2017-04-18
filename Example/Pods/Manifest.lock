@@ -1,0 +1,16 @@
+PODS:
+  - LYAppGlobal (0.1.0)
+
+DEPENDENCIES:
+  - LYAppGlobal (from `../`)
+
+EXTERNAL SOURCES:
+  LYAppGlobal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYAppGlobal: 2f89413ad2a185087c3b9676cc2b48acd23ac2f6
+
+PODFILE CHECKSUM: b07b3f0f3732d8839dd136abe90ada2d0c97a805
+
+COCOAPODS: 1.2.1

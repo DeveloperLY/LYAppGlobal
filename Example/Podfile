@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYAppGlobal_Example' do
+  pod 'LYAppGlobal', :path => '../'
+
+  target 'LYAppGlobal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
