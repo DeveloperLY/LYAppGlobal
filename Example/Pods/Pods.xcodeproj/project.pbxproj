@@ -19,6 +19,7 @@
 		10FB0EEB9179DF940D8C05D187D5B8E7 /* Pods-LYAppGlobal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LYAppGlobal_Example.modulemap"; sourceTree = "<group>"; };
 		12F66C630ED0E23EAB29F9EAAAF4FC5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2928CF251EE98F6D387C621E767B7084 /* Pods-LYAppGlobal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYAppGlobal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3060DE1AAED1BD3C07C09C8314DF07F0 /* LYMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYMacros.h; sourceTree = "<group>"; };
 		361BBA5650DF1DEEF874F0F87007C1D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B0C70BFBD28468BE4126A7243310BD2 /* Pods-LYAppGlobal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYAppGlobal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D8554AD9783618FC9ECAA86D3ED3825 /* Pods-LYAppGlobal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYAppGlobal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -27,9 +28,9 @@
 		58DD97126F84FE0D0CA74C82EEFB6D32 /* Pods_LYAppGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYAppGlobal_Tests.framework; path = "Pods-LYAppGlobal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D429C1163E9891AA2A6DDEAA92245B4 /* Pods-LYAppGlobal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAppGlobal_Example-frameworks.sh"; sourceTree = "<group>"; };
-		76BA25994897E7D86509E4EBC8586E5B /* LYMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYMacros.h; sourceTree = "<group>"; };
 		7D60C881C3478A032FC490538BC3E582 /* Pods_LYAppGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYAppGlobal_Example.framework; path = "Pods-LYAppGlobal_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C2971A4FEBCFF4B5E69C151587EC8F /* Pods-LYAppGlobal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYAppGlobal_Example-dummy.m"; sourceTree = "<group>"; };
+		85CD420C9F2CDEFE7642921F091BA9DF /* SingletonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SingletonMacros.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C98682AFDF890C4A34844EB9917495 /* Pods-LYAppGlobal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAppGlobal_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A3C647E59436147E958D9956CAA6F675 /* Pods-LYAppGlobal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYAppGlobal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -63,15 +64,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		176AD87CB397DA9FDBE4F21C1A621A78 /* Macros */ = {
-			isa = PBXGroup;
-			children = (
-				76BA25994897E7D86509E4EBC8586E5B /* LYMacros.h */,
-			);
-			name = Macros;
-			path = Macros;
-			sourceTree = "<group>";
-		};
 		434AD141FD3A7AFDCDF64A6E079D8E27 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,21 +101,31 @@
 			);
 			sourceTree = "<group>";
 		};
+		8EA267A924465C119457FB3C797AFF43 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96F442F342D46E14CBA09AACA49454FE /* Macros */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		96F442F342D46E14CBA09AACA49454FE /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				3060DE1AAED1BD3C07C09C8314DF07F0 /* LYMacros.h */,
+				85CD420C9F2CDEFE7642921F091BA9DF /* SingletonMacros.h */,
+			);
+			name = Macros;
+			path = Macros;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C91052BF2B478584C22AFF5B3052DA87 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				176AD87CB397DA9FDBE4F21C1A621A78 /* Macros */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		D160455738E0B33922A5786AB86518E1 /* Pods-LYAppGlobal_Example */ = {
@@ -147,7 +149,7 @@
 		D177DCFB03C13B7DEB9BDCC70969E908 /* LYAppGlobal */ = {
 			isa = PBXGroup;
 			children = (
-				C91052BF2B478584C22AFF5B3052DA87 /* Classes */,
+				8EA267A924465C119457FB3C797AFF43 /* Classes */,
 			);
 			name = LYAppGlobal;
 			path = LYAppGlobal;
