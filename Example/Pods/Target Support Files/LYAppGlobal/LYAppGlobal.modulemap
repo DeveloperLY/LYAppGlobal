@@ -1,6 +1,0 @@
-framework module LYAppGlobal {
-  umbrella header "LYAppGlobal-umbrella.h"
-
-  export *
-  module * { export * }
-}
