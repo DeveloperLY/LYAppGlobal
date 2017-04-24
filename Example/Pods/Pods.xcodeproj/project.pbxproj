@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10FB0EEB9179DF940D8C05D187D5B8E7 /* Pods-LYAppGlobal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LYAppGlobal_Example.modulemap"; sourceTree = "<group>"; };
+		10FB0EEB9179DF940D8C05D187D5B8E7 /* Pods-LYAppGlobal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LYAppGlobal_Example.modulemap"; sourceTree = "<group>"; };
 		12F66C630ED0E23EAB29F9EAAAF4FC5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2928CF251EE98F6D387C621E767B7084 /* Pods-LYAppGlobal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYAppGlobal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3060DE1AAED1BD3C07C09C8314DF07F0 /* LYMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYMacros.h; sourceTree = "<group>"; };
@@ -25,22 +25,24 @@
 		3D8554AD9783618FC9ECAA86D3ED3825 /* Pods-LYAppGlobal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYAppGlobal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		51CAAE77D5189EFBEB08F8C22C379031 /* Pods-LYAppGlobal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYAppGlobal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		55040838F8E3570BF9342CD2E065F728 /* Pods-LYAppGlobal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYAppGlobal_Tests-dummy.m"; sourceTree = "<group>"; };
-		58DD97126F84FE0D0CA74C82EEFB6D32 /* Pods_LYAppGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYAppGlobal_Tests.framework; path = "Pods-LYAppGlobal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DD97126F84FE0D0CA74C82EEFB6D32 /* Pods_LYAppGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYAppGlobal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D429C1163E9891AA2A6DDEAA92245B4 /* Pods-LYAppGlobal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAppGlobal_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7D60C881C3478A032FC490538BC3E582 /* Pods_LYAppGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYAppGlobal_Example.framework; path = "Pods-LYAppGlobal_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D60C881C3478A032FC490538BC3E582 /* Pods_LYAppGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYAppGlobal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C2971A4FEBCFF4B5E69C151587EC8F /* Pods-LYAppGlobal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYAppGlobal_Example-dummy.m"; sourceTree = "<group>"; };
 		85CD420C9F2CDEFE7642921F091BA9DF /* SingletonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SingletonMacros.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C98682AFDF890C4A34844EB9917495 /* Pods-LYAppGlobal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAppGlobal_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A3C647E59436147E958D9956CAA6F675 /* Pods-LYAppGlobal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYAppGlobal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7FCD698B3EDEF94DACAF3D08E37EE4D /* Pods-LYAppGlobal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYAppGlobal_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C6305C85009DC9ACCA804C21010C0DB6 /* Pods-LYAppGlobal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAppGlobal_Tests-resources.sh"; sourceTree = "<group>"; };
+		CD3B177E1EAE45CC00934B9F /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CD3B177F1EAE45CC00934B9F /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E101CD0049905C5DC70588C53AE58873 /* Pods-LYAppGlobal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYAppGlobal_Example-umbrella.h"; sourceTree = "<group>"; };
 		E107365DECE6647D06ACBF794EF7847D /* Pods-LYAppGlobal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYAppGlobal_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E798D1F40CEDF53E0C96BB682D63F978 /* Pods-LYAppGlobal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAppGlobal_Example-resources.sh"; sourceTree = "<group>"; };
 		F00AD8A09D80E3BB7383C4F8A923F51A /* Pods-LYAppGlobal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYAppGlobal_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F1FE055639570A32EED50D065D496E02 /* Pods-LYAppGlobal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LYAppGlobal_Tests.modulemap"; sourceTree = "<group>"; };
+		F1FE055639570A32EED50D065D496E02 /* Pods-LYAppGlobal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LYAppGlobal_Tests.modulemap"; sourceTree = "<group>"; };
 		F465738348629A0C7559DF8600A049D8 /* Pods-LYAppGlobal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYAppGlobal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,9 +106,9 @@
 		8EA267A924465C119457FB3C797AFF43 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CD3B177C1EAE459000934B9F /* Tools */,
 				96F442F342D46E14CBA09AACA49454FE /* Macros */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -116,7 +118,6 @@
 				3060DE1AAED1BD3C07C09C8314DF07F0 /* LYMacros.h */,
 				85CD420C9F2CDEFE7642921F091BA9DF /* SingletonMacros.h */,
 			);
-			name = Macros;
 			path = Macros;
 			sourceTree = "<group>";
 		};
@@ -126,6 +127,23 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3B177C1EAE459000934B9F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B177D1EAE45B900934B9F /* Reachability */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CD3B177D1EAE45B900934B9F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B177E1EAE45CC00934B9F /* Reachability.h */,
+				CD3B177F1EAE45CC00934B9F /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		D160455738E0B33922A5786AB86518E1 /* Pods-LYAppGlobal_Example */ = {
@@ -151,7 +169,6 @@
 			children = (
 				8EA267A924465C119457FB3C797AFF43 /* Classes */,
 			);
-			name = LYAppGlobal;
 			path = LYAppGlobal;
 			sourceTree = "<group>";
 		};
