@@ -114,6 +114,12 @@
 //获取当前语言
 #define kCurrentLanguage                            ([[NSLocale preferredLanguages] objectAtIndex:0])
 
+
+// 由角度转换弧度
+#define kDegreesToRadian(x)                         (M_PI * (x) / 180.0)
+//由弧度转换角度
+#define kRadianToDegrees(radian)                    (radian * 180.0) / (M_PI)
+
 // 在Main线程上运行
 #define DISPATCH_ON_MAIN_THREAD(mainQueueBlock)     dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
 
