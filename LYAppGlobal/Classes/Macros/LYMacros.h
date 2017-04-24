@@ -102,11 +102,17 @@
                                                     || ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
                                                     || ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
 
+//AppDelegate对象
+#define AppDelegateInstance                         [[UIApplication sharedApplication] delegate]
+
 // 一些缩写
 #define kApplication                                [UIApplication sharedApplication]
 #define kKeyWindow                                  [UIApplication sharedApplication].keyWindow
 #define kUserDefaults                               [NSUserDefaults standardUserDefaults]
 #define kNotificationCenter                         [NSNotificationCenter defaultCenter]
+
+//获取当前语言
+#define kCurrentLanguage                            ([[NSLocale preferredLanguages] objectAtIndex:0])
 
 // 在Main线程上运行
 #define DISPATCH_ON_MAIN_THREAD(mainQueueBlock)     dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
