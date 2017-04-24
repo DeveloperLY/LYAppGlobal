@@ -98,9 +98,15 @@
 #define kDictIsEmpty(dic)                           (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
 // 是否空对象
 #define kObjectIsEmpty(_object)                     (_object == nil \
-|| [_object isKindOfClass:[NSNull class]] \
-|| ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
-|| ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
+                                                    || [_object isKindOfClass:[NSNull class]] \
+                                                    || ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
+                                                    || ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
+
+// 一些缩写
+#define kApplication                                [UIApplication sharedApplication]
+#define kKeyWindow                                  [UIApplication sharedApplication].keyWindow
+#define kUserDefaults                               [NSUserDefaults standardUserDefaults]
+#define kNotificationCenter                         [NSNotificationCenter defaultCenter]
 
 // 在Main线程上运行
 #define DISPATCH_ON_MAIN_THREAD(mainQueueBlock)     dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
