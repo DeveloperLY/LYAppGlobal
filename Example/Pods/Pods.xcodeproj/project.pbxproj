@@ -11,6 +11,8 @@
 		6D35E3B6345E158F7763EBD341407E43 /* Pods-LYAppGlobal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F00AD8A09D80E3BB7383C4F8A923F51A /* Pods-LYAppGlobal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96FE442AD8F2A2E1182EAEEFA8311655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B41E9C22CD5FAB231F018C996019E928 /* Pods-LYAppGlobal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E101CD0049905C5DC70588C53AE58873 /* Pods-LYAppGlobal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD8916C1EBA044F008DE6A3 /* LYConst.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD8916A1EBA044F008DE6A3 /* LYConst.h */; };
+		CDD8916D1EBA044F008DE6A3 /* LYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8916B1EBA044F008DE6A3 /* LYConst.m */; };
 		D99EBCE6E1484E428D1E373A2C355376 /* Pods-LYAppGlobal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55040838F8E3570BF9342CD2E065F728 /* Pods-LYAppGlobal_Tests-dummy.m */; };
 		FFB8E17CF544AEF89675246229309A65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		C6305C85009DC9ACCA804C21010C0DB6 /* Pods-LYAppGlobal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAppGlobal_Tests-resources.sh"; sourceTree = "<group>"; };
 		CD3B177E1EAE45CC00934B9F /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		CD3B177F1EAE45CC00934B9F /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CDD8916A1EBA044F008DE6A3 /* LYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYConst.h; sourceTree = "<group>"; };
+		CDD8916B1EBA044F008DE6A3 /* LYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYConst.m; sourceTree = "<group>"; };
 		E101CD0049905C5DC70588C53AE58873 /* Pods-LYAppGlobal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYAppGlobal_Example-umbrella.h"; sourceTree = "<group>"; };
 		E107365DECE6647D06ACBF794EF7847D /* Pods-LYAppGlobal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYAppGlobal_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E798D1F40CEDF53E0C96BB682D63F978 /* Pods-LYAppGlobal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYAppGlobal_Example-resources.sh"; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 		8EA267A924465C119457FB3C797AFF43 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CDD891691EBA042B008DE6A3 /* Const */,
 				CD3B177C1EAE459000934B9F /* Tools */,
 				96F442F342D46E14CBA09AACA49454FE /* Macros */,
 			);
@@ -144,6 +149,15 @@
 				CD3B177F1EAE45CC00934B9F /* Reachability.m */,
 			);
 			path = Reachability;
+			sourceTree = "<group>";
+		};
+		CDD891691EBA042B008DE6A3 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8916A1EBA044F008DE6A3 /* LYConst.h */,
+				CDD8916B1EBA044F008DE6A3 /* LYConst.m */,
+			);
+			path = Const;
 			sourceTree = "<group>";
 		};
 		D160455738E0B33922A5786AB86518E1 /* Pods-LYAppGlobal_Example */ = {
@@ -215,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41E9C22CD5FAB231F018C996019E928 /* Pods-LYAppGlobal_Example-umbrella.h in Headers */,
+				CDD8916C1EBA044F008DE6A3 /* LYConst.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD8916D1EBA044F008DE6A3 /* LYConst.m in Sources */,
 				4B886CAF565B946AC1C5E4DE96E483D9 /* Pods-LYAppGlobal_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

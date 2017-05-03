@@ -1,6 +1,6 @@
 //
 //  LYMacros.h
-///  LYAppGlobal
+//  LYAppGlobal
 //
 //  Created by Liu Y on 16/5/12.
 //  Copyright © 2016年 DeveloperLY. All rights reserved.
